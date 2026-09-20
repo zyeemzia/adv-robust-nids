@@ -1,0 +1,9 @@
+,,evasion_rate,evasion_rate,auc,auc,auc_successful,auc_successful,adv_confidence,adv_confidence,tpr_all,tpr_all,tpr_successful,tpr_successful,false_alarm_benign,false_alarm_benign,recall_mlp_only,recall_mlp_only,recall_combined,recall_combined
+,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+detector,attack,,,,,,,,,,,,,,,,,,
+FeatureSqueezing,PGD-constrained eps=0.2 iters=3,0.263,0.0124,0.4397,0.0235,0.7257,0.0447,0.3876,0.0248,0.0826,0.0357,0.1237,0.0407,0.071,0.009,0.737,0.0124,0.7692,0.0209
+FeatureSqueezing,PGD-constrained eps=0.2 iters=50,0.4758,0.0471,0.3621,0.0611,0.4091,0.0339,0.8403,0.0285,0.0492,0.0343,0.0359,0.0273,0.071,0.009,0.5242,0.0471,0.5416,0.0441
+FeatureSqueezing,PGD-unconstrained eps=0.1 iters=50,0.762,0.0369,0.2986,0.0389,0.2571,0.0161,0.9217,0.0152,0.0458,0.0436,0.0023,0.0017,0.071,0.009,0.238,0.0369,0.2398,0.0365
+Manda-style,PGD-constrained eps=0.2 iters=3,0.263,0.0124,0.4199,0.0126,0.8146,0.0261,0.3876,0.0248,0.1078,0.018,0.2727,0.0578,0.0503,0.0061,0.737,0.0124,0.8088,0.0162
+Manda-style,PGD-constrained eps=0.2 iters=50,0.4758,0.0471,0.5135,0.0734,0.7585,0.0299,0.8403,0.0285,0.0904,0.064,0.093,0.0548,0.0503,0.0061,0.5242,0.0471,0.5696,0.0364
+Manda-style,PGD-unconstrained eps=0.1 iters=50,0.762,0.0369,0.6903,0.0209,0.8271,0.0156,0.9217,0.0152,0.0326,0.0223,0.04,0.0287,0.0503,0.0061,0.238,0.0369,0.2688,0.0354
